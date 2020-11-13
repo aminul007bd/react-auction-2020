@@ -8,9 +8,9 @@ function App() {
     <div className="App">
       <Container>
           <AppNavbar />
-          <Card>
+          <div className="shadow mt-3 p-2">
               <AppInforBar />
-          </Card>
+          </div>
        </Container>
     </div>
   );
