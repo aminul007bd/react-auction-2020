@@ -1,18 +1,17 @@
 import React from 'react';
 import './App.css';
-import AppHeader from './components/AppHeader';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Card, Container } from 'react-bootstrap';
+import AppNavbar from './components/AppNavbar';
+import AppInforBar from './components/AppInfoBar';
 function App() {
   return (
     <div className="App">
       <Container>
-        <Row>
-          <Col>
-          <AppHeader />
-          </Col>
-        </Row>
-    </Container>
-
+          <AppNavbar />
+          <Card>
+              <AppInforBar />
+          </Card>
+       </Container>
     </div>
   );
 }
