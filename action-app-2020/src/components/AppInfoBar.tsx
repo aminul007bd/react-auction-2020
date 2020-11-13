@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Row, Col } from 'react-bootstrap';
 import { ArrowLeftShort } from 'react-bootstrap-icons';
 
 export class AppInforBar extends Component {
