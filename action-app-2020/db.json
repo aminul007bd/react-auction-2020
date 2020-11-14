@@ -1,272 +1,124 @@
 {
   "applicants": [{
+      "id": 1,
       "email": "roberto.delgado@example.com",
-      "gender": "male",
       "phone_number": "661-893-159",
-      "birthdate": 1270737155,
-      "location": {
-        "street": "9846 calle de la democracia",
-        "city": "mérida",
-        "state": "extremadura",
-        "postcode": 67772
-      },
-      "username": "bigostrich113",
-      "password": "royal",
+      "bid_status": "appointment_set",
+      "bid_amount": "",
+      "appointment_date": "22 July 14:00",
       "first_name": "roberto",
-      "last_name": "delgado",
-      "title": "mr",
-      "picture": "men/10.jpg"
+      "last_name": "delgado"
     },
     {
+      "id": 2,
       "email": "enora.aubert@example.com",
-      "gender": "female",
       "phone_number": "(964)-085-6735",
-      "birthdate": 900427237,
-      "location": {
-        "street": "9419 rue du bât-d'argent",
-        "city": "syens",
-        "state": "appenzell innerrhoden",
-        "postcode": 4241
-      },
-      "username": "lazypeacock446",
-      "password": "porsche9",
+      "bid_status": "property_viewed",
+      "bid_amount": "250000 EU",
+      "appointment_date": "",
       "first_name": "enora",
-      "last_name": "aubert",
-      "title": "madame",
-      "picture": "women/2.jpg"
+      "last_name": "aubert"
     },
     {
+      "id": 3,
       "email": "william.david@example.com",
-      "gender": "male",
       "phone_number": "(494)-541-3062",
-      "birthdate": 498456350,
-      "location": {
-        "street": "1507 rue abel-ferry",
-        "city": "aclens",
-        "state": "schaffhausen",
-        "postcode": 4583
-      },
-      "username": "orangepanda797",
-      "password": "pinkfloyd",
+      "bid_status": "property_set",
+      "bid_amount": "",
+      "appointment_date": "22 January 15:00",
       "first_name": "william",
-      "last_name": "david",
-      "title": "monsieur",
-      "picture": "men/38.jpg"
+      "last_name": "david"
     },
     {
+      "id": 4,
       "email": "isaltino.rocha@example.com",
-      "gender": "male",
       "phone_number": "(36) 0570-2025",
-      "birthdate": 426000120,
-      "location": {
-        "street": "8322 rua santa luzia ",
-        "city": "marília",
-        "state": "tocantins",
-        "postcode": 21342
-      },
-      "username": "blackbear100",
-      "password": "sandy1",
+      "bid_status": "property_set",
+      "bid_amount": "",
+      "appointment_date": "22 January 15:00",
       "first_name": "isaltino",
-      "last_name": "rocha",
-      "title": "mr",
-      "picture": "men/90.jpg"
+      "last_name": "rocha"
     },
     {
+      "id": 5,
       "email": "lara.metzger@example.com",
-      "gender": "female",
       "phone_number": "0178-3288824",
-      "birthdate": 416553041,
-      "location": {
-        "street": "8012 schlossstraße",
-        "city": "hannover",
-        "state": "bayern",
-        "postcode": 83703
-      },
-      "username": "organiclion990",
-      "password": "gateway",
+      "bid_status": "property_set",
+      "bid_amount": "",
+      "appointment_date": "22 January 15:00",
       "first_name": "lara",
-      "last_name": "metzger",
-      "title": "miss",
-      "picture": "women/24.jpg"
+      "last_name": "metzger"
     },
     {
+      "id": 6,
       "email": "naja.larsen@example.com",
-      "gender": "female",
       "phone_number": "47342413",
-      "birthdate": 685240705,
-      "location": {
-        "street": "8463 hobrovej",
-        "city": "stokkemarke",
-        "state": "midtjylland",
-        "postcode": 78729
-      },
-      "username": "bluefish638",
-      "password": "dirtbike",
+      "bid_status": "property_viewed",
+      "bid_amount": "50000",
+      "appointment_date": "22 February 15:00",
       "first_name": "naja",
-      "last_name": "larsen",
-      "title": "miss",
-      "picture": "women/44.jpg"
+      "last_name": "larsen"
     },
     {
+      "id": 7,
       "email": "giselle.monteiro@example.com",
-      "gender": "female",
       "phone_number": "(71) 5848-8742",
-      "birthdate": 1302716933,
-      "location": {
-        "street": "5474 rua piauí ",
-        "city": "americana",
-        "state": "rio grande do norte",
-        "postcode": 52659
-      },
-      "username": "blackgorilla346",
-      "password": "shou",
+      "bid_status": "property_viewed",
+      "bid_amount": "600000",
+      "appointment_date": "22 February 15:00",
       "first_name": "giselle",
-      "last_name": "monteiro",
-      "title": "miss",
-      "picture": "women/7.jpg"
+      "last_name": "monteiro"
     },
     {
+      "id": 8,
       "email": "ben.perry@example.com",
-      "gender": "male",
       "phone_number": "(412)-745-4263",
-      "birthdate": 189063593,
-      "location": {
-        "street": "5778 lakeshore rd",
-        "city": "west jordan",
-        "state": "ohio",
-        "postcode": 65378
-      },
-      "username": "smallfrog806",
-      "password": "01234567",
+      "bid_status": "property_viewed",
+      "bid_amount": "600000",
+      "appointment_date": "22 February 15:00",
       "first_name": "ben",
-      "last_name": "perry",
-      "title": "mr",
-      "picture": "men/77.jpg"
+      "last_name": "perry"
     },
     {
+      "id": 9,
       "email": "oscar.christiansen@example.com",
-      "gender": "male",
       "phone_number": "38396305",
-      "birthdate": 1335200641,
-      "location": {
-        "street": "9176 glentevej",
-        "city": "﻿aaborg øst",
-        "state": "syddanmark",
-        "postcode": 13286
-      },
-      "username": "smalldog404",
-      "password": "gggggggg",
+      "bid_status": "property_set",
+      "bid_amount": "",
+      "appointment_date": "25 March 15:00",
       "first_name": "oscar",
-      "last_name": "christiansen",
-      "title": "mr",
-      "picture": "men/95.jpg"
+      "last_name": "christiansen"
     },
     {
+      "id": 10,
       "email": "tammy.bowman@example.com",
-      "gender": "female",
       "phone_number": "081-064-2923",
-      "birthdate": 833377307,
-      "location": {
-        "street": "1134 high street",
-        "city": "carrigaline",
-        "state": "missouri",
-        "postcode": 50779
-      },
-      "username": "orangeduck243",
-      "password": "plato",
+      "bid_status": "property_set",
+      "bid_amount": "",
+      "appointment_date": "5 December 15:00",
       "first_name": "tammy",
-      "last_name": "bowman",
-      "title": "ms",
-      "picture": "women/74.jpg"
+      "last_name": "bowman"
     },
     {
+      "id": 11,
       "email": "charlotte.lee@example.com",
-      "gender": "female",
       "phone_number": "(290)-731-9178",
-      "birthdate": 1074941562,
-      "location": {
-        "street": "7390 main street",
-        "city": "gisborne",
-        "state": "wellington",
-        "postcode": 13296
-      },
-      "username": "lazytiger506",
-      "password": "bedford",
+      "bid_status": "property_set",
+      "bid_amount": "",
+      "appointment_date": "5 May 15:00",
       "first_name": "charlotte",
-      "last_name": "lee",
-      "title": "miss",
-      "picture": "women/92.jpg"
+      "last_name": "lee"
     },
     {
+      "id": 12,
       "email": "karen.stanley@example.com",
-      "gender": "female",
       "phone_number": "081-988-5646",
       "birthdate": 1114669499,
-      "location": {
-        "street": "7483 dublin road",
-        "city": "loughrea",
-        "state": "illinois",
-        "postcode": 46508
-      },
-      "username": "heavyrabbit592",
-      "password": "virus",
+      "bid_status": "property_set",
+      "bid_amount": "",
+      "appointment_date": "5 May 15:00",
       "first_name": "karen",
-      "last_name": "stanley",
-      "title": "mrs",
-      "picture": "women/63.jpg"
-    },
-    {
-      "email": "sheryl.carr@example.com",
-      "gender": "female",
-      "phone_number": "0731-134-689",
-      "birthdate": 117923501,
-      "location": {
-        "street": "8570 queens road",
-        "city": "aberdeen",
-        "state": "county armagh",
-        "postcode": "OM3F 9YU"
-      },
-      "username": "redbear154",
-      "password": "ziggy",
-      "first_name": "sheryl",
-      "last_name": "carr",
-      "title": "ms",
-      "picture": "women/75.jpg"
-    },
-    {
-      "email": "miguel.sanz@example.com",
-      "gender": "male",
-      "phone_number": "636-912-353",
-      "birthdate": 450524670,
-      "location": {
-        "street": "1543 calle de argumosa",
-        "city": "valladolid",
-        "state": "comunidad de madrid",
-        "postcode": 87843
-      },
-      "username": "silverfrog877",
-      "password": "gilligan",
-      "first_name": "miguel",
-      "last_name": "sanz",
-      "title": "mr",
-      "picture": "men/71.jpg"
-    },
-    {
-      "email": "cassandre.leroux@example.com",
-      "gender": "female",
-      "phone_number": "06-09-96-38-18",
-      "birthdate": 569521519,
-      "location": {
-        "street": "4917 rue duguesclin",
-        "city": "versailles",
-        "state": "territoire de belfort",
-        "postcode": 59655
-      },
-      "username": "bigwolf469",
-      "password": "spooge",
-      "first_name": "cassandre",
-      "last_name": "leroux",
-      "title": "mrs",
-      "picture": "women/25.jpg"
-    }]
+      "last_name": "stanley"
+    }
+  ]
 }

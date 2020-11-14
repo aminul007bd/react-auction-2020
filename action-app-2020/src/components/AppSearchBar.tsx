@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { FormControl, Row, Col } from 'react-bootstrap'
 import { Search } from 'react-bootstrap-icons'
 
+
 export class AppSearchBar extends Component {
     render() {
         return (
