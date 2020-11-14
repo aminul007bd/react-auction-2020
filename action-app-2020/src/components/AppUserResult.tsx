@@ -2,6 +2,12 @@ import React, { Component } from 'react'
 import { Col, Row, Card } from 'react-bootstrap'
 
 export class AppUserResult extends Component {
+    componentDidMount() {
+        const apiUrl = 'http://localhost:5000/applicants';
+        fetch(apiUrl)
+          .then((response) => response.json())
+          .then((data) => console.log('This is your data', data));
+      }
     userName = () => {
         return 'AH'
     }
