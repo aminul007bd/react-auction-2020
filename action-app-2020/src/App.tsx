@@ -3,8 +3,8 @@ import './App.css';
 import { Container } from 'react-bootstrap';
 import AppNavbar from './components/AppNavbar';
 import AppInforBar from './components/AppInfoBar';
-import { AppSearchBar } from './components/AppSearchBar';
-import { AppUserResult } from './components/AppUserResult'
+import AppSearchBar from './components/AppSearchBar';
+import AppUserResult from './components/AppUserResult'
 function App() {
   return (
     <div className="App">
