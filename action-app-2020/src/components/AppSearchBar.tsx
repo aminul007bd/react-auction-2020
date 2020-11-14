@@ -7,7 +7,7 @@ export class AppSearchBar extends Component {
         return (
             <div>
                 <Row className='mt-4'>
-                    <Form className='d-flex flex-row ml-3'>
+                    <Form className='d-flex flex-row ml-3 mr-3'>
                         <div className="form-group has-search">
                             <Search className="has-search form-control-feedback pt-1 pl-3" />
                             <FormControl type="text" placeholder="Search for appointment" className="mr-sm-2 pl-5" />

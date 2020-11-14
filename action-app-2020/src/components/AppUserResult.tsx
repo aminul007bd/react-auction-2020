@@ -14,7 +14,7 @@ export class AppUserResult extends Component {
                     </Col>
                 </Row>
                 <Row>
-                    <Col xs={6} lg={3} className='mt-2'>
+                    <Col xs={12} sm={6}  lg={3} className='mt-2'>
                         <Card>
                             <div className="d-flex justify-content-center mt-3">
                                 <Card.Img className='rounded-circle bg-dark-gray'  src="holder.js/70x70?text=AH"  />
@@ -23,8 +23,12 @@ export class AppUserResult extends Component {
                             <Card.Title>Aminul Hoque</Card.Title>
                             <Card.Subtitle> +49017656896943</Card.Subtitle>
                             <Card.Text> aminul.hoque@gmail.com</Card.Text>
-                            <span className="badge badge-secondary font-weight-normal text-uppercase">Appointment 22 July 14:00</span>
-                            <span className="badge badge-warning font-weight-normal text-white text-uppercase">Bid 250,000 EU</span>
+                            <Card.Text className='mb-0'>
+                                <span className="badge badge-secondary font-weight-normal text-uppercase">Appointment 22 July 14:00</span>
+                            </Card.Text>
+                            <Card.Text>
+                                <span className="badge badge-warning font-weight-normal text-white text-uppercase">Bid 250,000 EU</span>
+                            </Card.Text>
                             </Card.Body>
                         </Card>
                     </Col>
