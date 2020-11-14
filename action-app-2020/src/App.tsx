@@ -8,7 +8,7 @@ import { AppUserResult } from './components/AppUserResult'
 function App() {
   return (
     <div className="App">
-      <Container>
+      <Container fluid>
           <AppNavbar />
           <div className="shadow mt-3 p-3">
               <AppInforBar />

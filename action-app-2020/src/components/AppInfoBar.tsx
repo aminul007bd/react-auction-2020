@@ -6,7 +6,7 @@ export class AppInforBar extends Component {
         return (
             <div>
                 <div className="d-flex mt-4">
-                    <div className="mr-auto">
+                    <div className="mr-auto d-none d-sm-block">
                         <h5> 
                             <ArrowLeftShort size={32}/>  
                             <span className='ml-2'>Applications </span>
