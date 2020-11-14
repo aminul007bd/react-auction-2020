@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { FormControl, Row, Form } from 'react-bootstrap'
+import { FormControl, Row, Form, Col } from 'react-bootstrap'
 import { Search } from 'react-bootstrap-icons'
 
 export class AppSearchBar extends Component {
@@ -7,24 +7,28 @@ export class AppSearchBar extends Component {
         return (
             <div>
                 <Row className='mt-4'>
-                    <Form className='d-flex flex-row ml-3 mr-3'>
+                    <Col xs={12} sm={6} md={4}  lg={3}>
                         <div className="form-group has-search">
                             <Search className="has-search form-control-feedback pt-1 pl-3" />
                             <FormControl type="text" placeholder="Search for appointment" className="mr-sm-2 pl-5" />
-                        </div>
-                        <select name="bid" className="custom-select mb-3 ml-3 w-25">
+                        </div> 
+                    </Col>
+                    <Col xs={6} sm={3} md={2} lg={2}>
+                        <select name="bid" className="custom-select">
                             <option >Bid</option>
                             <option value="Appointment_Set">Appointment Set</option>
                             <option value="Property_Viewed">Property Viewed</option>
                             <option value="Interested">Interested</option>
                             <option value="Offer_Accepted">Offer Accepted</option>
                         </select>
-                        <select name="status" className="custom-select mb-3 ml-3 w-25">
+                    </Col>
+                    <Col xs={6} sm={3}  md={2} lg={2}>
+                        <select name="status" className="custom-select">
                             <option >Status</option>
                             <option value="active">Active</option>
                             <option value="inactive">Inactive</option>
                         </select>
-                    </Form>
+                    </Col>
                 </Row>
             </div>
         )
