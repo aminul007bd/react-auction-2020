@@ -14,9 +14,15 @@ interface UserData {
     first_name: string
     last_name: string
 }
+function CardProfile () {
+    return (
+        <div className="d-flex justify-content-center mt-3">
+            <Card.Img className='rounded-circle w-25'  src="https://dummyimage.com/60x60/ccc/fff&text=AH" />
+        </div>    
+    )
+}
 function AppUserResult () {
     const [data, setData] = useState<UserData[]>([])
-    const [appCount, setAppCount] = useState<number>()
     const fetchURL = "http://localhost:5000"
     const getData = () =>
       fetch(`${fetchURL}/applicants`)
@@ -39,9 +45,7 @@ function AppUserResult () {
                 {data?.filter(user => user.bid_status === 'property_set').map((user: UserData) => 
                     <Col key={user.id}  xs={12} sm={6}  lg={3} className='mt-2'>
                         <Card>
-                            <div className="d-flex justify-content-center mt-3">
-                                <Card.Img className='rounded-circle bg-dark-gray'  src="holder.js/70x70?text=AH"  />
-                            </div>
+                            <CardProfile />
                             <Card.Body>
                             <Card.Title className='text-capitalize'>{user.first_name} {user.last_name}</Card.Title>
                             <Card.Subtitle> {user.phone_number}</Card.Subtitle>
@@ -66,9 +70,7 @@ function AppUserResult () {
                 {data?.filter(user => user.bid_status === 'property_viewed').map((user: UserData) => 
                     <Col key={user.id}  xs={12} sm={6}  lg={3} className='mt-2'>
                         <Card>
-                            <div className="d-flex justify-content-center mt-3">
-                                <Card.Img className='rounded-circle bg-dark-gray'  src="holder.js/70x70?text=AH"  />
-                            </div>
+                            <CardProfile />
                             <Card.Body>
                             <Card.Title className='text-capitalize'>{user.first_name} {user.last_name}</Card.Title>
                             <Card.Subtitle> {user.phone_number}</Card.Subtitle>
