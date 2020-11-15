@@ -9,9 +9,3 @@ export  interface UserInterface {
   last_name: string
 }
 
-export enum FetchStates {
-  ERROR = 'ERROR',
-  LOADING = 'LOADING',
-  IDLE = 'IDLE',
-  RESOLVED = 'RESOLVED',
-}
