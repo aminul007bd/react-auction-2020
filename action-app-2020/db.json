@@ -81,13 +81,13 @@
     },
     {
       "id": 9,
-      "email": "oscar.christiansen@example.com",
+      "email": "oscar.christian@example.com",
       "phone_number": "38396305",
       "bid_status": "property_set",
       "bid_amount": "",
       "appointment_date": "25 March 15:00",
       "first_name": "oscar",
-      "last_name": "christiansen"
+      "last_name": "christian"
     },
     {
       "id": 10,
