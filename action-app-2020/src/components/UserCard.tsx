@@ -13,16 +13,17 @@ function BidBadge ({bidAmound}) {
     )
 }
 
-function UserCardImage () {
+function UserCardImage ({firstName, lastName}) {
+    const fullNameLetter = firstName.charAt(0) + lastName.charAt(0)
+    const colors = ["info", "secondary", "warning", "dark", "danger"]
+    const randomColor = colors[Math.floor(Math.random() * colors.length)];
     return (
         <div className="d-flex justify-content-center mt-3">
             <div className='imgContainer '>
-            <div className='imageRound bg-info'>
-                <span className='profileName'>AH</span>
+            <div className={'imageRound bg-' + randomColor}>
+                <span className='profileName text-uppercase text-white'>{fullNameLetter}</span>
             </div>
             </div>
-
-            {/* <Card.Img className='rounded-circle w-25'  src="https://dummyimage.com/60x60/ccc/fff&text=AH" /> */}
         </div>    
     )
 }
@@ -54,7 +55,7 @@ function UserCard ({searchResult, propertyStatus}) {
                 {userResult?.map((user: UserInterface) => 
                     <Col key={user.id}  xs={12} sm={6}  lg={3} className='mt-2'>
                         <Card>
-                            <UserCardImage />
+                            <UserCardImage firstName={user.first_name} lastName={user.last_name} />
                             <Card.Body>
                             <Card.Title className='text-capitalize'>{user.first_name} {user.last_name}</Card.Title>
                             <Card.Subtitle> {user.phone_number}</Card.Subtitle>
