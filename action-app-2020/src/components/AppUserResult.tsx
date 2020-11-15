@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import { Col, Row, Card } from 'react-bootstrap'
 import { UserInterface } from '../types'
 
@@ -9,28 +9,16 @@ function CardProfile () {
         </div>    
     )
 }
-function AppUserResult () {
-    const [data, setData] = useState<UserInterface[]>([])
-    const fetchURL = "http://localhost:5000"
-    const getData = () =>
-      fetch(`${fetchURL}/applicants`)
-        .then((res) => res.json())
-  
-    useEffect(() => {
-      getData()
-      .then((data) => setData(data))
-    }, [])
-
-  
+function AppUserResult ({searchResult}) {
     return (
         <div>
             <Row className='mt-4'>
                 <Col>
-                    <h5 className='text-left'>Appointment Set ({data?.map.length})</h5>  
+                    <h5 className='text-left'>Appointment Set ({searchResult?.map.length})</h5>  
                 </Col>
             </Row>
             <Row>
-                {data?.filter(user => user.bid_status === 'property_set').map((user: UserInterface) => 
+                {searchResult?.filter(user => user.bid_status === 'property_set').map((user: UserInterface) => 
                     <Col key={user.id}  xs={12} sm={6}  lg={3} className='mt-2'>
                         <Card>
                             <CardProfile />
@@ -55,7 +43,7 @@ function AppUserResult () {
             </Row>
 
             <Row>
-                {data?.filter(user => user.bid_status === 'property_viewed').map((user: UserInterface) => 
+                {searchResult?.filter(user => user.bid_status === 'property_viewed').map((user: UserInterface) => 
                     <Col key={user.id}  xs={12} sm={6}  lg={3} className='mt-2'>
                         <Card>
                             <CardProfile />
